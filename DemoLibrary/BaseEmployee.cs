@@ -8,7 +8,7 @@ namespace DemoLibrary
 {
     /*quando uma super classe possui um comportamento, suas sub classes devem seguir o mesmo comportamento,
      * a aplicação agora respeita essa regra, pois todas as sub classes de BaseEmployee possuem o mesmo comportamento*/
-    public class BaseEmployee : IEmployee
+    public abstract class BaseEmployee : IEmployee
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

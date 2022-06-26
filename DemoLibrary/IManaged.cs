@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public interface IManaged
+    public interface IManaged : IEmployee
     {
         IEmployee Manager { get; set; }
         void AssingManager (IEmployee manager);
